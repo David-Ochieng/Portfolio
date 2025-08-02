@@ -1,0 +1,234 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* === Global Styles === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* === Header === */
+  header {
+    background-color: #004466;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  /* === Sections === */
+  section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #004466;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  section ul {
+    margin-left: 20px;
+    list-style: disc;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  /* === Links === */
+  a {
+    color: #004466;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* === Contact Form === */
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  form button {
+    background-color: #004466;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  form button:hover {
+    background-color: #00334d;
+  }
+  
+  /* === Footer === */
+  footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* === Responsive (Mobile) === */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    form button {
+      width: 100%;
+    }
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #004466;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #004466;
+    margin-bottom: 10px;
+  }
+  
+  section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #004466;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #004466;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #00334d;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #555;
+    /* Mobile styles */
+@media (max-width: 768px) 
+    body {
+      padding: 10px;
+    }
+  
+    header {
+      padding: 20px;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    form input,
+    form textarea {
+      font-size: 1rem;
+    }
+  
+    form button {
+      width: 100%;
+    }
+  
+  }
